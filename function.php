@@ -1,5 +1,5 @@
 <?php
-$nilai = 56;
+//$nilai = 56;
 
 //if ($nilai >= 85 && $nilai <= 100 ) {
  //   echo "Nilai A";
@@ -18,7 +18,7 @@ $nilai = 56;
 
 
 
-function getGrade (int $nilai) : string
+function getGrade (int $nilai) : int
  {
     if ($nilai >= 85 && $nilai <= 100 ) {
     $grade =  "Nilai A";
