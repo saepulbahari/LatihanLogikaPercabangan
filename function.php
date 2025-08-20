@@ -18,7 +18,7 @@
 
 
 
-function getGrade (int $nilai) : string
+function getGrade (float | int $nilai) : string
  {
     if ($nilai >= 85 && $nilai <= 100 ) {
     $grade =  "Nilai A";
@@ -39,7 +39,7 @@ function getGrade (int $nilai) : string
 $hasil  = getGrade(75);
 $hasil1  = getGrade(90);
 $hasil2 = getGrade(60);
-$hasil3  = getGrade(2);
+$hasil3  = getGrade(30,56);
 
 echo $hasil . "\n";
 echo $hasil1 . "\n";
